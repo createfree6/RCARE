@@ -1,6 +1,6 @@
 # RCARE-Forecast
 
-Reliability-Calibrated Privileged Residual Learning for data-efficient text-numeric time series forecasting.
+### Reliability-Calibrated Privileged Residual Learning for data-efficient text-numeric time series forecasting.
 
 RCARE-Forecast is a PyTorch implementation of a deployable history-only forecasting model that learns from training-time privileged semantic hindsight. During training, a teacher branch can read future-pattern and residual-explanation text. During inference, only historical numeric windows and history-side text are used by the student branch. The final prediction is produced as a reliability-calibrated semantic residual correction on top of a stable numeric forecast prior.
 
