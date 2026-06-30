@@ -1,0 +1,15 @@
+numpy>=1.23
+pandas>=1.5
+torch>=2.0
+scipy>=1.10
+scikit-learn>=1.2
+matplotlib>=3.7
+tqdm>=4.65
+einops>=0.6
+PyYAML>=6.0
+
+# Optional: only needed when building Transformer-based offline text embeddings.
+transformers>=4.36
+accelerate>=0.24
+safetensors>=0.4
+tokenizers>=0.15
