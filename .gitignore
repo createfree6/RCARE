@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data and generated text-feature artifacts
+/dataset/*
+!/dataset/.gitkeep
+/generated/*
+!/generated/.gitkeep
+
+# Training outputs
+/checkpoints*/
+!/checkpoints/.gitkeep
+/outputs*/
+!/outputs/.gitkeep
+/logs/
+/tables/
+/results.txt
+/results-old.txt
+
+# Model weights and large arrays
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Temporary experiment folders
+/tmp*/
+/out*/
