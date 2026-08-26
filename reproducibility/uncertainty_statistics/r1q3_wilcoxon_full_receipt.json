@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-08-26T00:20:36",
+  "source": "F:\\\u79d1\u7814\u8d44\u6599\\paper_7\\\u624b\u7a3f\\\u5b9e\u9a8c\u7ae0\u8282\u64b0\u5199\\5.2\\5.2_significance_per_baseline.csv",
+  "source_sha256": "7b0b3c4c0574df13b2c8a49beef5097204051148f4e65ae375e82ab61db3ec43",
+  "rows": 66,
+  "paired_datasets": [
+    12
+  ],
+  "test": "two-sided Wilcoxon signed-rank test",
+  "reported_values": "raw p-values and Benjamini-Hochberg corrected q-values",
+  "correction": "Benjamini-Hochberg FDR across 11 baselines within each ratio and metric",
+  "max_bh_q_recomputation_error": 8.890457814381136e-17,
+  "outputs": {
+    "csv": "E:\\code\\Time_Series_Forecasting\\ICML2026\\CARE-Forecast\\tables\\r1q3_wilcoxon_full.csv",
+    "mse_tex": "E:\\code\\Time_Series_Forecasting\\ICML2026\\CARE-Forecast\\tables\\r1q3_wilcoxon_full_mse.tex",
+    "mae_tex": "E:\\code\\Time_Series_Forecasting\\ICML2026\\CARE-Forecast\\tables\\r1q3_wilcoxon_full_mae.tex"
+  }
+}
